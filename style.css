@@ -1,0 +1,42 @@
+.heading{
+    background-color: antiquewhite;
+    color: black;
+    font-weight: bold;
+}
+
+body{
+    background-color: fe938c;
+}
+
+h4{
+    background-color: ad91a3;
+    color: 39393a;
+    position: fixed;
+    font-weight: bolder;
+    bottom: 0px;
+    line-height: 2;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+}
+
+canvas{
+    margin-top: 50px;
+    border-radius: 30px;
+    border: 5px e43f6f;
+  
+    animation-name: rgb;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rgb{
+    17%{box-shadow: 1px 1px 100px red;}
+    24%{box-shadow: 1px 1px 100px orange;}
+    41%{box-shadow: 1px 1px 100px yellow;}
+    58%{box-shadow: 1px 1px 100px green;}
+    75%{box-shadow: 1px 1px 100px blue;}
+    92%{box-shadow: 1px 1px 100px lightseagreen;}
+    100%{box-shadow: 1px 1px 100px purple;}
+}
+
